@@ -1,10 +1,10 @@
 """ class Question:
     pass """
+#------------------------------------------------------------------------------------------------------------------------------
 
 
 
-
-
+A SIMPLE GAME
 
 
 
@@ -66,7 +66,7 @@ print(" Area = {x} , Circumference = {y}".format ( x = sphere1.area(), y = spher
 
 #------------------------------------------------------------------------------------------------------------------------------
 
-class Vector2D:
+""" class Vector2D:
     def __init__(self,x,y):
         self.x=x
         self.y=y
@@ -76,4 +76,25 @@ class Vector2D:
 first = Vector2D(5,7)
 second= Vector2D(3,9)
 result = first + second
-print(f"{result.x}+{result.y}" )
+print(f"{result.x}+{result.y}" ) """
+#------------------------------------------------------------------------------------------------------------------------------
+""" class Pizza:
+    def __init__(self,toppings):
+        self.toppings = toppings
+        self._pineapple_allowed = False
+    @property
+    def pineapple_allowed(self):
+        return self._pineapple_allowed
+    @pineapple_allowed.setter
+    def pineapple_allowed(self, value):
+        if value:
+            password = input("Enter the password")
+            if(password == "ahmet" ):
+                self._pineapple_allowed = value
+            else:
+                raise ValueError("Intruder !")
+pizza = Pizza(["cheese","tomato"])
+print(pizza.pineapple_allowed)
+pizza.pineapple_allowed = True
+print(pizza.pineapple_allowed) """
+#------------------------------------------------------------------------------------------------------------------------------
