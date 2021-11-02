@@ -1,28 +1,4 @@
-""" class Question:
-    pass """
-#------------------------------------------------------------------------------------------------------------------------------
-
-
-
-#A SIMPLE GAME
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#------------------------------------------------------------------------------------------------------------------------------
-""" class Animal:
+class Animal:
     def __init__(self,colour = "White"):
         self.colour = colour
     def print():
@@ -47,10 +23,10 @@ duman.speak()
 Sibirya = Dog("Black")
 print(Sibirya.colour)
 Sibirya.speak()
- """
+
 
 #------------------------------------------------------------------------------------------------------------------------------
-""" class Sphere:
+class Sphere:
     pi = 3.14
     def __init__(self, r = 1):
         self.r = r
@@ -62,11 +38,11 @@ Sibirya.speak()
 sphere1 = Sphere(2)
 print(" Area = {x} , Circumference = {y}".format ( x = sphere1.area(), y = sphere1.circumference()))
 sphere1.r = 3
-print(" Area = {x} , Circumference = {y}".format ( x = sphere1.area(), y = sphere1.circumference())) """
+print(" Area = {x} , Circumference = {y}".format ( x = sphere1.area(), y = sphere1.circumference()))
 
 #------------------------------------------MAGIC METHODS---------------------------------------------------------------------
 
-""" class Vector2D:
+class Vector2D:
     def __init__(self,x,y):
         self.x=x
         self.y=y
@@ -76,9 +52,9 @@ print(" Area = {x} , Circumference = {y}".format ( x = sphere1.area(), y = spher
 first = Vector2D(5,7)
 second= Vector2D(3,9)
 result = first + second
-print(f"{result.x}+{result.y}" ) """
+print(f"{result.x}+{result.y}" )
 #-----------------------------------------GETTER / SETTERS------------------------------------------------------------------
-""" class Pizza:
+class Pizza:
     def __init__(self,toppings):
         self.toppings = toppings
         self._pineapple_allowed = False
@@ -96,5 +72,5 @@ print(f"{result.x}+{result.y}" ) """
 pizza = Pizza(["cheese","tomato"])
 print(pizza.pineapple_allowed)
 pizza.pineapple_allowed = True
-print(pizza.pineapple_allowed) """
+print(pizza.pineapple_allowed)
 #------------------------------------------------------------------------------------------------------------------------------
