@@ -29,3 +29,16 @@ print(f"Median: {np.median(y)}")
 print(f"Variance: {np.var(y)}")
 print(f"Standart Deviation: {np.std(y)}")
 
+vac_nums = [0,0,0,0,0,
+            1,1,1,1,1,1,1,1,
+            2,2,2,2,
+            3,3,3
+            ]
+            
+sum_squares = 0
+mean = sum (vac_nums ) / len ( vac_nums )
+for num in vac_nums:
+    dif = (num - mean)
+    sum_squares = sum_squares + dif * dif
+variance = sum_squares / len ( vac_nums )
+print (f"Covid 19 Vaccinations Variance : {variance}" )
