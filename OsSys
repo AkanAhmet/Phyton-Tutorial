@@ -1,0 +1,37 @@
+import os
+import sys
+import tkinter
+
+pencere = tkinter.Tk()
+pencere.mainloop()
+
+print(dir(os))
+print(os.name)
+print(os.sep)
+liste = ["1","2","3"]
+print(os.sep.join(liste))
+print(os.getcwd())
+#os.startfile(".")
+
+file = open("deneme.txt","w")
+file.write("Hello ahmet akan")
+file.close()
+
+file2 = open("deneme.txt","r")
+for word in file2:
+    print(word)
+
+
+try:
+    veri = input("İşleminiz:\t")
+    sonuc = eval(veri)
+    print(sonuc)
+except Exception as error:
+    print(f"So sory. {error}")
+
+print(sys.getwindowsversion())
+
+
+while True:
+    sys.exit()
+
